@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity  implements View.OnClickList
 
             textViewPlayer1 = findViewById(R.id.text_view_p1);
             textViewPlayer2 = findViewById(R.id.text_view_p2);
+            buttonReset = findViewById(R.id.button_reset);
 
 
             for (int i = 0; i < 3; i++) {
